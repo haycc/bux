@@ -1,0 +1,244 @@
+<html lang="en"><head>
+    <title>EasyRobux | Earn</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script defer="" src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600|Work Sans:300,400,600" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="prebid-ads.js"></script>
+
+    <link rel="stylesheet" href="account.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body class="darkblue">
+    <div class="wrapper">
+
+        <!-- Sidebar  -->
+               <nav id="sidebar" class="darkblue2">
+
+
+            <ul class="list-unstyled components ">
+                <div class="text-center p-4" style="color:lightgrey; margin: auto">
+                
+                    <div class="rounded-circle blue text-center" style="max-height:42px; max-weight: 42px; display:inline-block;">
+                        <img src="https://www.roblox.com/headshot-thumbnail/image?userId=1957815107&amp;width=420&amp;height=420&amp;format=png" class="transitionlol rounded-circle" height="42px" width="42px" onerror="this.onerror=null;this.src='img/defaulticon.png';">
+                    </div>
+                    
+                    <h3 style="overflow:hidden; white-space: nowrap; color:white; margin-bottom: 1px; font-weight: 500;">robloxsdave</h3>
+                    <p style="font-size: 19px"><span style="color:white; white-space: nowrap;">0 <img src="https://easyrobux.cc/img/Robux_2019_white%20(1).png" height="21" style="margin-bottom: 4.5px;"></span></p>
+                </div>
+                <li>
+                    <a href="/dashboard.php" style="text-decoration: none;"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+                </li>
+
+                <li>
+                    <a href="/earn.php" style="text-decoration: none;"><i class="fas fa-dollar-sign"></i> Earn </a>
+                </li>
+
+                <li>
+                    <a href="/withdraw.php" style="text-decoration: none; "><i class="fas fa-sign-out-alt"></i> Withdraw</a>
+                </li>
+                <li>
+                    <a href="/codes.php" style="text-decoration: none; "><i class="fas fa-gift"></i> Codes</a>
+                </li>
+                <li>
+                    <a href="/referrals.php" style="text-decoration: none;"><i class="fas fa-user-friends"></i> Referrals</a>
+                </li>
+            </ul>
+
+        </nav>
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg bg-dark text-light " style="padding: 15px;">
+                <div class="container-fluid">
+
+
+
+                    <button type="button" id="sidebarCollapse" style="font-size: 18px;" class="btn btn-primary">
+                        <i class="fas fa-align-left"></i>
+                        <span>Toggle Sidebar</span>
+                    </button>
+
+
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+
+
+
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+
+                                <a class="nav-link" href="logout.php" style="text-decoration: none; color: white; font-size: 20px;">Log out</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <br>
+			
+			<div class="ads-wrapper adTop adUnit"></div>
+			
+			<script type="text/javascript">
+			
+					var adBlockDetected = null;
+					$(document).ready(function() {
+						setTimeout(function() {
+							adBlockDetected = !$('.ads-wrapper').length > 0 || !$('.ads-wrapper').is(':visible');
+
+							if (adBlockDetected) {
+								$(document).trigger('adblock-detected');
+								alert("AdBlocker detected! Please disable your adblocker or the offers may not work.");
+								return;
+							}
+						}, 1000); // give adblock time to do what it does best
+					});
+
+
+			</script>
+			
+			
+            <div class="container-xl text-center">
+                <div class="blue">
+                    <div class="container-fluid">
+
+                        <h4 class="blue earntitle" style="overflow:hidden; color:white; margin-bottom: 1px; padding-top: 7px; padding-bottom: 9px; font-weight: 500;"><strong>Earn Robux</strong><br>
+                            <small style="font-size: 18px;">Choose from the offers below and follow the instructions to earn robux!<br>
+							
+
+                                <!--Select your device:
+
+                            <select class="custom-select" style="width:160px; height: 38px">
+                                <option>Desktop</option>
+                                <option selected>iPhone</option>
+                                <option>iPad</option>
+                                <option>Android</option>
+                                <option>All</option>
+                            </select>
+                            -->
+                            </small>
+							<!--
+                            <button id="youtube" class="btn transitionlol btn-youtube text-light ">
+                                <i class="fab fa-youtube"></i>
+                                <!-- <a rel="noreferrer" target="_blank" href="https://www.youtube.com/channel/UCqP_b_kzHWjvwlyxbKQxj2g?sub_confirmation=1">Subscribe for Robux</a> 
+                            </button>
+							-->
+                            <button class="btn transitionlol btn-discord text-light ">
+                                <i class="fab fa-discord"></i>
+                                <a rel="noreferrer" target="_blank" href="https://discord.gg/YRtnqaN">Discord</a>
+                            </button>
+                        </h4>
+
+
+                        <div class="row offerrow darkblue2 text-white text-center justify-content-center pl-1 pr-1 offer transitionlol">
+                            <div class="col-7 text-left align-self-center">    
+								<img src="https://media.go2speed.org/brand/files/ogmobi/35818/thumbnails_100/XxY6ikRT.400x400-192.png" class="img-responsive offerimg float-left pr-2 mt-2 mb-1 offerImg" height="60px" width="60px" style="display: none !important;"><h4 class="offertitle">Install Ad Blocker Now!</h4>                                <span class="offerdisc">Install FREE Ad Blocker to Unlock Your Content Now!</span><br></div><div class="col-5 align-self-center">                                <a href="http://jump.ogtrk.net/aff_c?aff_id=32241&amp;offer_id=35818" rel="noreferrer" target="_blank" class="btn btn-primary offerbtn text-light btn-lg font-weight-normal pl-4 pr-4 pt-2">
+                                    +62 R$
+                                </a></div></div><div class="row offerrow darkblue2 text-white text-center justify-content-center pl-1 pr-1 offer transitionlol">
+                            <div class="col-7 text-left align-self-center">    
+								<img src="https://media.go2speed.org/brand/files/ogmobi/35111/thumbnails_100/arcadezone.logo.primary-192.png" class="img-responsive offerimg float-left pr-2 mt-2 mb-1 offerImg" height="60px" width="60px" style="display: none !important;"><h4 class="offertitle">GET free access to Arcade Zone HERE!</h4>                                <span class="offerdisc">Enter Your Details to GET free access to Arcade Zone Now!</span><br></div><div class="col-5 align-self-center">                                <a href="http://jump.ogtrk.net/aff_c?aff_id=32241&amp;offer_id=35111" rel="noreferrer" target="_blank" class="btn btn-primary offerbtn text-light btn-lg font-weight-normal pl-4 pr-4 pt-2">
+                                    +672 R$
+                                </a></div></div><div class="row offerrow darkblue2 text-white text-center justify-content-center pl-1 pr-1 offer transitionlol">
+                            <div class="col-7 text-left align-self-center">    
+								<img src="https://media.go2speed.org/brand/files/ogmobi/31712/thumbnails_100/yycnsa-192.png" class="img-responsive offerimg float-left pr-2 mt-2 mb-1 offerImg" height="60px" width="60px" style="display: none !important;"><h4 class="offertitle">Watch Movie and Get Free Voucher!</h4>                                <span class="offerdisc">SignUp for FREE And Get Voucher to Watch Movie Only Now!</span><br></div><div class="col-5 align-self-center">                                <a href="http://jump.ogtrk.net/aff_c?aff_id=32241&amp;offer_id=31712" rel="noreferrer" target="_blank" class="btn btn-primary offerbtn text-light btn-lg font-weight-normal pl-4 pr-4 pt-2">
+                                    +840 R$
+                                </a></div></div><div class="row offerrow darkblue2 text-white text-center justify-content-center pl-1 pr-1 offer transitionlol">
+                            <div class="col-7 text-left align-self-center">    
+								<img src="https://media.go2speed.org/brand/files/ogmobi/33385/thumbnails_100/1634596992.(2).png" class="img-responsive offerimg float-left pr-2 mt-2 mb-1 offerImg" height="60px" width="60px" style="display: none !important;"><h4 class="offertitle">Gamehag: Play games and get rewarded!</h4>                                <span class="offerdisc">Sign up for Gamehag, complete the tutorial and collect 50 Soul Gems!
+</span><br></div><div class="col-5 align-self-center">                                <a href="http://jump.ogtrk.net/aff_c?aff_id=32241&amp;offer_id=33385" rel="noreferrer" target="_blank" class="btn btn-primary offerbtn text-light btn-lg font-weight-normal pl-4 pr-4 pt-2">
+                                    +25 R$
+                                </a></div></div><div class="row offerrow darkblue2 text-white text-center justify-content-center pl-1 pr-1 offer transitionlol">
+                            <div class="col-7 text-left align-self-center">    
+								<img src="https://media.go2speed.org/brand/files/ogmobi/34882/thumbnails_100/324937481.(4).png" class="img-responsive offerimg float-left pr-2 mt-2 mb-1 offerImg" height="60px" width="60px" style="display: none !important;"><h4 class="offertitle">Complete the survey and earn rewards!</h4>                                <span class="offerdisc">Answer the questions and enter your email address
+</span><br></div><div class="col-5 align-self-center">                                <a href="http://jump.ogtrk.net/aff_c?aff_id=32241&amp;offer_id=34882" rel="noreferrer" target="_blank" class="btn btn-primary offerbtn text-light btn-lg font-weight-normal pl-4 pr-4 pt-2">
+                                    +50 R$
+                                </a></div></div><div class="row offerrow darkblue2 text-white text-center justify-content-center pl-1 pr-1 offer transitionlol">
+                            <div class="col-7 text-left align-self-center">    
+								<img src="https://media.go2speed.org/brand/files/ogmobi/35221/thumbnails_100/afcss.png" class="img-responsive offerimg float-left pr-2 mt-2 mb-1 offerImg" height="60px" width="60px" style="display: none !important;"><h4 class="offertitle">Update Latest Chrome Extension HERE!</h4>                                <span class="offerdisc">Install the latest Chrome Extension Delivery to your device Now!</span><br></div><div class="col-5 align-self-center">                                <a href="http://jump.ogtrk.net/aff_c?aff_id=32241&amp;offer_id=35221" rel="noreferrer" target="_blank" class="btn btn-primary offerbtn text-light btn-lg font-weight-normal pl-4 pr-4 pt-2">
+                                    +62 R$
+                                </a></div></div><div class="row offerrow darkblue2 text-white text-center justify-content-center pl-1 pr-1 offer transitionlol">
+                            <div class="col-7 text-left align-self-center">    
+								<img src="https://media.go2speed.org/brand/files/ogmobi/35061/thumbnails_100/3297661221.png" class="img-responsive offerimg float-left pr-2 mt-2 mb-1 offerImg" height="60px" width="60px" style="display: none !important;"><h4 class="offertitle">Watch your favorite movies for FREE!</h4>                                <span class="offerdisc">Create an account and confirm with your credit card.
+</span><br></div><div class="col-5 align-self-center">                                <a href="http://jump.ogtrk.net/aff_c?aff_id=32241&amp;offer_id=35061" rel="noreferrer" target="_blank" class="btn btn-primary offerbtn text-light btn-lg font-weight-normal pl-4 pr-4 pt-2">
+                                    +884 R$
+                                </a></div></div><div class="row offerrow darkblue2 text-white text-center justify-content-center pl-1 pr-1 offer transitionlol">
+                            <div class="col-7 text-left align-self-center">    
+								<img src="https://media.go2speed.org/brand/files/ogmobi/24950/thumbnails_100/Screenshot.39.jpg" class="img-responsive offerimg float-left pr-2 mt-2 mb-1 offerImg" height="60px" width="60px" style="display: none !important;"><h4 class="offertitle">Win an Apple iPhone Xs!</h4>                                <span class="offerdisc">Enter your email and complete the steps to unlock this content.</span><br></div><div class="col-5 align-self-center">                                <a href="http://jump.ogtrk.net/aff_c?aff_id=32241&amp;offer_id=24950" rel="noreferrer" target="_blank" class="btn btn-primary offerbtn text-light btn-lg font-weight-normal pl-4 pr-4 pt-2">
+                                    +67 R$
+                                </a></div></div><div class="row offerrow darkblue2 text-white text-center justify-content-center pl-1 pr-1 offer transitionlol">
+                            <div class="col-7 text-left align-self-center">    
+								<img src="https://media.go2speed.org/brand/files/ogmobi/35927/thumbnails_100/surfing-192.png" class="img-responsive offerimg float-left pr-2 mt-2 mb-1 offerImg" height="60px" width="60px" style="display: none !important;"><h4 class="offertitle">Take a survey and get your reward!</h4>                                <span class="offerdisc">Complete The surveys and get paid for each one of them!</span><br></div><div class="col-5 align-self-center">                                <a href="http://jump.ogtrk.net/aff_c?aff_id=32241&amp;offer_id=35927" rel="noreferrer" target="_blank" class="btn btn-primary offerbtn text-light btn-lg font-weight-normal pl-4 pr-4 pt-2">
+                                    +41 R$
+                                </a></div></div><div class="row offerrow darkblue2 text-white text-center justify-content-center pl-1 pr-1 offer transitionlol">
+                            <div class="col-7 text-left align-self-center">    
+								<img src="https://media.go2speed.org/brand/files/ogmobi/33165/thumbnails_100/3327524419.png" class="img-responsive offerimg float-left pr-2 mt-2 mb-1 offerImg" height="60px" width="60px" style="display: none !important;"><h4 class="offertitle">Win a new Playstation 5!</h4>                                <span class="offerdisc">Enter your valid details and confirm.
+</span><br></div><div class="col-5 align-self-center">                                <a href="http://jump.ogtrk.net/aff_c?aff_id=32241&amp;offer_id=33165" rel="noreferrer" target="_blank" class="btn btn-primary offerbtn text-light btn-lg font-weight-normal pl-4 pr-4 pt-2">
+                                    +67 R$
+                                </a></div></div><div class="row offerrow darkblue2 text-white text-center justify-content-center pl-1 pr-1 offer transitionlol">
+                            <div class="col-7 text-left align-self-center">    
+								<img src="https://media.go2speed.org/brand/files/ogmobi/35933/thumbnails_100/PS5.CA.png" class="img-responsive offerimg float-left pr-2 mt-2 mb-1 offerImg" height="60px" width="60px" style="display: none !important;"><h4 class="offertitle">Win PS5</h4>                                <span class="offerdisc">Enter your phone number to unlock this content.</span><br></div><div class="col-5 align-self-center">                                <a href="http://jump.ogtrk.net/aff_c?aff_id=32241&amp;offer_id=35933" rel="noreferrer" target="_blank" class="btn btn-primary offerbtn text-light btn-lg font-weight-normal pl-4 pr-4 pt-2">
+                                    +882 R$
+                                </a></div></div>                        <!--
+                        <div class="row offerrow darkblue2 text-white text-center justify-content-center pl-1 pr-1 offer">
+
+
+                            <div class="col-7 text-left align-self-center">
+                                <img src="https://media.go2speed.org/brand/files/ogmobi/30329/thumbnails_100/thumbnail-18943530995de539b881bd73.63319108.png" class="img-responsive offerimg float-left pr-2 mt-2 mb-1" height="64px">
+
+                                <h4 class="offertitle">Stash</h4>
+
+                                <span class="offerdisc">wkdkwadk wkafffffffdklw adwakdkwjadjk sd </span>
+
+                                <br><span style="font-size: 20px;"><i class="fas fa-desktop"></i>&nbsp; <i class="fab fa-android"></i>
+
+                                    &nbsp;<i class="fab fa-apple"></i></span>
+                            </div>
+                            <div class="col-5 align-self-center">
+
+                                <a class="btn btn-primary offerbtn text-light btn-lg font-weight-normal pl-4 pr-4 pt-2">
+                                    +100 R$
+                                </a>
+
+                            </div>
+                        </div>
+                        -->
+
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#sidebarCollapse').on('click', function() {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+
+    </script>
+
+
+
+
+
+</body></html>

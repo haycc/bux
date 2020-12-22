@@ -1,0 +1,442 @@
+.white {
+    background-color: white;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-family: "Work Sans";
+}
+
+.lightblack {
+    background-color: black;
+}
+
+.black {
+    background-color: #212529;
+}
+
+.darkgrey {
+    background-color: #6c757d;
+}
+
+.underlinegreen {
+    width: 100%;
+    border-left: 4px solid #6eeb83;
+}
+
+.underlineblue {
+    width: 100%;
+    border-left: 4px solid #1be7ff;
+}
+
+.statscontainer {
+    border-radius: 3px;
+}
+
+@media only screen and (max-width: 580px) {
+    .hometitle {
+        margin-top: 5%;
+    }
+
+    .statscontainer {
+        border-radius: 0px;
+    }
+}
+
+.navtitle {
+    font-size: 26px;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 450px) {
+    .navtitle {
+        font-size: 18px;
+    }
+}
+
+.stats {
+    padding: 8px;
+    border-radius: 2px;
+
+    overflow: hidden;
+}
+
+#youtube {
+    background: red;
+    margin-top: 6px;
+    font-size: 16px;
+    margin-bottom: 6px;
+
+}
+
+#youtube a {
+    color: white;
+}
+
+.btn-discord a {
+    color: white;
+}
+
+.btn-discord {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background-color: #7289da !important;
+    color: #fff;
+    font-size: 16px;
+}
+
+.stats:hover {}
+
+.coolgradient {
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(2, 62, 125, 1) 0%, rgba(0, 164, 255, 1) 100%);
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.btn:active {
+    transform: scale(0.95);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+.footera {
+    color: white;
+    font-size: 17px;
+}
+
+.footera:hover {
+    box-sizing: border-box;
+    color: #0466c8;
+    text-decoration: none;
+}
+
+.homenavbar {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 9px 9px -1px rgba(0, 0, 0, .3);
+}
+
+.homejumbo {
+    background-image: url(img/PngItem_5272626.png);
+    background-repeat: no-repeat;
+    background-position: 85% 0;
+    background-blend-mode: multiply;
+    background-size: 330px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.btn-success,
+.btnsuccess:active,
+.btn-success:visited {}
+
+h4 {
+    margin-bottom: 7px;
+}
+
+.leaderboard-item {
+    padding: 9px;
+    padding-left: 15px;
+    text-align: left;
+
+}
+
+.text-primary1 {
+    color: #0996DC;
+}
+
+hr.solid {
+    padding: 0;
+    margin: 0.0;
+    border-top: 0.5px solid white;
+    width: 100%;
+    text-align: center;
+    height: 1px;
+    padding-bottom: 3px;
+
+}
+
+div.icon {
+    margin-bottom: 12px;
+}
+
+.icon i {
+    padding-top: 14px;
+    height: 75px;
+    width: 75px;
+}
+
+p {
+    margin: 1px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#myModal {
+    margin-top: -10%;
+}
+
+.transitionlol {
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#shadow1 {
+    box-shadow: 0px 10px 18px black;
+}
+
+.darkblue {
+    background-color: #001233;
+}
+
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.darkblue3 {
+    background-color: #0353a4;
+}
+
+.darkblue2 {
+    background-color: #023e7d;
+}
+
+.lightgreen {
+    background-color: #6eeb83;
+}
+
+.lightblue {
+    background-color: #1be7ff;
+}
+
+.colorlightblue {
+    color: #1be7ff;
+}
+
+.blue {
+    background-color: #0466c8;
+}
+
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 255px;
+    max-width: 255px;
+
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    margin-left: -255px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 20px;
+    font-size: 1.2em;
+    display: block;
+    color: white;
+}
+
+#sidebar ul li a:hover {
+    background-color: #0353a4;
+    color: lightgray;
+    transition: all 0.4s ease;
+}
+
+#sidebar ul li.active > a,
+a[aria-expanded="true"] {
+    color: #fff;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: height .2s ease;
+    -o-transition: height .2s ease;
+    transition: height .2s ease;
+}
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -255px;
+    }
+
+    #sidebar.active {
+        margin-left: 0;
+    }
+
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+@media (max-width: 520px) {
+    .container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .earntitle {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+}
+
+.offer {
+    border-bottom: 1px solid white;
+
+}
+
+.offerrow {
+    padding: 0.6%;
+
+}
+
+.offerimg {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-right: 1px;
+    display: inline;
+}
+
+.offertitle {
+    margin: 0px;
+    margin-top: 1px;
+    font-size: 23px;
+    white-space: nowrap;
+}
+
+.offerdisc {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    margin-right: 10px;
+
+}
+
+.offerbtn {
+    white-space: nowrap;
+    border-radius: 14px;
+    font-size: 18px;
+}
